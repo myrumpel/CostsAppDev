@@ -1,0 +1,19 @@
+.cost-filter {
+	margin-bottom: 1.6rem;
+	display: flex;
+	justify-content: space-between;
+}
+.cost-filter label {
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+.cost-filter select {
+	width: 150px;
+	text-align: center;
+	font-weight: 700;
+	border: 1px solid #0e6e8e;
+	border-radius: 0.4rem;
+}
+.cost-filter select:focus {
+	outline: none;
+}

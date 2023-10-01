@@ -1,0 +1,27 @@
+.cost-item {
+	background-color: white;
+	padding: 0.8rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.cost-item:not(:last-of-type) {
+	margin-bottom: 0.8rem;
+}
+.cost-item__desc {
+	display: flex;
+	align-items: center;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+}
+.cost-item__desc h2 {
+	font-size: 1.2rem;
+}
+.cost-item__price {
+	background-color: #128eb8;
+	padding: 0.4rem;
+	border-radius: 0.4rem;
+	font-weight: 700;
+	color: white;
+	border: 1px solid #0f7192;
+}

@@ -1,0 +1,25 @@
+.cost-item__date {
+	background-color: #128eb8;
+	padding: 0.4rem;
+	border-radius: 0.4rem;
+	font-weight: 700;
+	color: white;
+	border: 1px solid #0f7192;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.8rem;
+	min-width: 15%;
+}
+.cost-item__date div:not(:last-child) {
+	margin-bottom: 8px;
+}
+.cost-item__date div:first-child {
+	font-size: 1rem;
+}
+.cost-item__date div:nth-child(2) {
+	font-weight: 400;
+}
+.cost-item__date div:last-child {
+	font-size: 1.4rem;
+}
